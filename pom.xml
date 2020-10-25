@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>ocp11</name>
+    <name>ocp11-parent</name>
     <description>Project for ocp11 certification</description>
 
     <properties>
