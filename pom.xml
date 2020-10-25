@@ -2,13 +2,30 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>nl.leon</groupId>
-    <artifactId>ocp11</artifactId>
+    <groupId>nl.leon.ocp</groupId>
+    <artifactId>ocp11-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>ocp11-parent</name>
+    <name>ocp11</name>
     <description>Project for ocp11 certification</description>
+
+
+    <modules>
+        <module>primitive-types</module>
+        <module>java-object-oriented-approach</module>
+        <module>working-with-arrays-and-collections</module>
+        <module>java-platform-module-system</module>
+        <module>java-io-api</module>
+        <module>database-applications-with-jdbc</module>
+        <module>annotations</module>
+        <module>controlling-program-flow</module>
+        <module>exception-handling</module>
+        <module>working-with-streams-and-lambda-expressions</module>
+        <module>concurrency</module>
+        <module>secure-coding-in-java-se-application</module>
+        <module>localization</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

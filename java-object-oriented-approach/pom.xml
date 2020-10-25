@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>nl.leon.ocp</groupId>
+    <artifactId>java-object-oriented-approach</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <description>
+        Declare and instantiate Java objects including nested class objects, and explain objects lifecycles (including creation, derefering by reassignment, and garbage collector)
+        Define and use fields and methods, including instance, static and overloaded methods.
+        Initialize objects and their members using instance and static initialiser statements and constructors.
+        Understand variable scopes, apply encapsulation and make objects immutable
+        Create and use subclasses and superclasses, including abstract classes
+        Utilize polymorphism and casting to call methods, differentiate object type versus reference type
+        Create and use interfaces, identify functional interfaces, and utilize private, static and default methods
+        Create and use enumerations
+    </description>
+</project>
