@@ -21,5 +21,22 @@ public class TestPredicate {
 
         System.out.println(b1.test("chicken", "chick"));
         System.out.println(b2.test("chicken", "chick"));
+
+        new TestPredicate().combinePredicates();
+    }
+
+
+    private void combinePredicates() {
+        Predicate<String> egg = s -> s.contains("egg");
+        Predicate<String> brown = s -> s.contains("brown");
+        Predicate brownEggs = egg.and(brown);
+        System.out.println(egg.test("egg"));
+        System.out.println(egg.test("brown"));
+        System.out.println(brown.test("egg"));
+        System.out.println(brown.test("brown"));
+        System.out.println(brownEggs.test("egg"));
+        System.out.println(brownEggs.test("brown"));
+        System.out.println(brownEggs.test("brownegg"));
+        System.out.println(brownEggs.test("eggbrown"));
     }
 }
