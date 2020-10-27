@@ -1,4 +1,4 @@
-package nl.leon.ocp.javaobjectorientedapproach;
+package nl.leon.ocp.javaobjectorientedapproach.functional;
 
 import java.util.ArrayList;
 import java.util.function.Supplier;

@@ -1,4 +1,4 @@
-package nl.leon.ocp.javaobjectorientedapproach;
+package nl.leon.ocp.javaobjectorientedapproach.functional;
 
 import java.util.function.BinaryOperator;
 import java.util.function.UnaryOperator;
