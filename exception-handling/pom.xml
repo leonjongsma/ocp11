@@ -12,4 +12,16 @@
         Handle exceptions using try/catch/finally clauses, try-with-resource, and multi-catch statements
         Create and use custom exceptions
     </description>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
