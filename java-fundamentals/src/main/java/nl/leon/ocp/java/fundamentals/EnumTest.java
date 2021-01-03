@@ -1,5 +1,7 @@
 package nl.leon.ocp.java.fundamentals;
 
+import nl.leon.ocp.java.fundamentals.enums.Season;
+
 public class EnumTest {
 
     public void test1() {
