@@ -11,4 +11,8 @@
     <description>
         Create worker threads using Runnable and Callable, and manage concurrency using an ExecutorService and java.util.concurrent API
     </description>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 </project>
