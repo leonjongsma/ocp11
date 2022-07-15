@@ -9,5 +9,4 @@ public class Question1 {
                 .peek(System.out::println)
                 .allMatch(s -> s.startsWith("F"));
     }
-
 }
