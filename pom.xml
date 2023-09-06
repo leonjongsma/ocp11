@@ -29,6 +29,7 @@
         <module>java-fundamentals</module>
         <module>java-interfaces</module>
         <module>functional-interface-and-lambda-expressions</module>
+        <module>functional-programming</module>
     </modules>
 
     <properties>
